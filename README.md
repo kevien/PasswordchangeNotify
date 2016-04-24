@@ -1,8 +1,10 @@
 # PasswordchangeNotify
 when pass change ,send the pass to remote host 
+
 一.	简介
 工具用途在于我们所控制的域控服务器在修改密码之后，会通过http传输协议发送到我们指定的服务器上，从而我们不会丧失对域控服务器的控制权限。
 适用于windows server2008和windows2012（已测）.
+
 二.	操作步骤
 1.步骤1
 上传HookPasswordChangeNotify.ps1和HookPasswordChange.dll
